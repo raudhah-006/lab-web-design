@@ -1,0 +1,114 @@
+/* Gaya keseluruhan halaman & Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Bahagian Header */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+/* Horizontal Navigation Bar (ikut contoh Lab 5.9) */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #006699;
+}
+
+/* Bahagian Kandungan Utama (Section & Article) */
+section {
+    width: 85%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #dddddd;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #006699;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Gaya Jadual / Table (ikut contoh Lab 5.8) */
+#umt-table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#umt-table td, #umt-table th {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+#umt-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#umt-table tr:hover {
+    background-color: #e6f2ff;
+}
+
+#umt-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #003366;
+    color: white;
+}
+
+/* Bahagian Footer */
+footer {
+    background-color: #e0e6ed;
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
